@@ -70,5 +70,24 @@ public class PO_Common
 					Reporter.log("Unable to click on Bill Pay. Exception as :"+e.toString());
 				}
 			}
+			
+			//My Money Map
+			
+			@FindBy(how=How.XPATH, using="//a[contains(text(),'My Money Map')]")
+		    private WebElement my_money_map_link;
+			
+			public void clickMy_Money_Map()
+			{
+				try
+				{
+					my_money_map_link.click();
+					Reporter.log("My money map is clicked",true);
+				}
+				catch(Exception e)
+				{
+					e.printStackTrace();
+					Reporter.log("Unable to click on money map. Exception as :"+e.toString());
+				}
+			}
 
 }

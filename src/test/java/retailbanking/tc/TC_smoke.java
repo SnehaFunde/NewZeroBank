@@ -1,6 +1,7 @@
 package retailbanking.tc;
 
 import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.PageFactory;
 import org.testng.annotations.Parameters;
 import org.testng.annotations.Test;
@@ -102,10 +103,23 @@ public class TC_smoke
 		PO_pay_bills pay_bills=PageFactory.initElements(driver, PO_pay_bills.class);
 		PO_Common common=PageFactory.initElements(driver, PO_Common.class);
 		common.clickBillPay();
-		pay_bills.make_payment_form("apple");
+		/*pay_bills.make_payment_form("apple");
 		pay_bills.make_payment_form_account("2");
+		pay_bills.make_payment_form_amount("100");
 		pay_bills.make_payment_form_date();
+		pay_bills.description_in_pay_bills("test");
+		pay_bills.click_pay_btn();*/
 		
+		//Add new Payee
+		//pay_bills.KW_po_bill_pay_Add_New_Payee("xyz", "pune", "100", "test");
 		
+		pay_bills.click_purchase_foreign_currency();
+		pay_bills.select_currency("CHF");
+		pay_bills.pay_forgn_currncy_amount("100");
+		pay_bills.check_radio_btn_selected_currency();
+		pay_bills.calculate_cost();
+		pay_bills.conversion_amount();
+		pay_bills.click_on_purcase_btn();
+		pay_bills.purchase_success_msg();
 	}
 }

@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="1" passed="1">
+  <reporter-output>
+    <line>
+      <![CDATA[path is set]]>
+    </line>
+    <line>
+      <![CDATA[browser is invoked]]>
+    </line>
+    <line>
+      <![CDATA[window is maximized]]>
+    </line>
+    <line>
+      <![CDATA[implicit wait]]>
+    </line>
+    <line>
+      <![CDATA[username set with value as uname username]]>
+    </line>
+    <line>
+      <![CDATA[submit button clicked]]>
+    </line>
+    <line>
+      <![CDATA[Username and password are set and submit button is clicked]]>
+    </line>
+    <line>
+      <![CDATA[Bill Pay is clicked]]>
+    </line>
+    <line>
+      <![CDATA[Value get selected as apple from dropdown]]>
+    </line>
+    <line>
+      <![CDATA[Page title is correct]]>
+    </line>
+    <line>
+      <![CDATA[Form title is correct]]>
+    </line>
+    <line>
+      <![CDATA[Value get selected as 2 from dropdown]]>
+    </line>
+    <line>
+      <![CDATA[Unable to select date as from calendar]]>
+    </line>
+  </reporter-output>
+  <suite name="Suite" duration-ms="40010" started-at="2019-05-21T18:08:42Z" finished-at="2019-05-21T18:09:22Z">
+    <groups>
+    </groups>
+    <test name="TestNGTest" duration-ms="40010" started-at="2019-05-21T18:08:42Z" finished-at="2019-05-21T18:09:22Z">
+      <class name="retailbanking.tc.TC_smoke">
+        <test-method status="PASS" signature="tc_04_check_account_summary(java.lang.String, java.lang.String)[pri:0, instance:retailbanking.tc.TC_smoke@18a70f16]" name="tc_04_check_account_summary" duration-ms="39915" started-at="2019-05-21T23:38:42Z" finished-at="2019-05-21T23:39:22Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[http://zero.webappsecurity.com/login.html]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[path is set]]>
+            </line>
+            <line>
+              <![CDATA[browser is invoked]]>
+            </line>
+            <line>
+              <![CDATA[window is maximized]]>
+            </line>
+            <line>
+              <![CDATA[implicit wait]]>
+            </line>
+            <line>
+              <![CDATA[username set with value as uname username]]>
+            </line>
+            <line>
+              <![CDATA[submit button clicked]]>
+            </line>
+            <line>
+              <![CDATA[Username and password are set and submit button is clicked]]>
+            </line>
+            <line>
+              <![CDATA[Bill Pay is clicked]]>
+            </line>
+            <line>
+              <![CDATA[Value get selected as apple from dropdown]]>
+            </line>
+            <line>
+              <![CDATA[Page title is correct]]>
+            </line>
+            <line>
+              <![CDATA[Form title is correct]]>
+            </line>
+            <line>
+              <![CDATA[Value get selected as 2 from dropdown]]>
+            </line>
+            <line>
+              <![CDATA[Unable to select date as from calendar]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- tc_04_check_account_summary -->
+      </class> <!-- retailbanking.tc.TC_smoke -->
+    </test> <!-- TestNGTest -->
+  </suite> <!-- Suite -->
+</testng-results>
